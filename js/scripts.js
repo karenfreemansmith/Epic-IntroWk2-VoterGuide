@@ -71,6 +71,44 @@ $(document).ready(function() {
       trump -= 3;
     }
 
-    alert ("Trump: " + trump + ", Clinton: " + clinton + ", Gary: " + gary + ", Jill: " + jill);
+
+     var result = "";
+    // if(trump/8*100 > 0) {
+    //   result += "Trump: "+ trump/8*100 + "% ";
+    // }
+    // if(clinton/8*100 > 0) {
+    //   result += "Clinton: "+ clinton/8*100 + "% ";
+    // }
+    // if(jill/8*100 > 0) {
+    //   result += "Jill: "+ jill/8*100 + "% ";
+    // }
+    // if(gary/8*100 > 0) {
+    //   result += "Gary: "+ gary/8*100 + "% ";
+    // }
+    // if (!result){
+    //   result = "You should not vote.";
+    // }
+
+
+    if((trump>jill) && (trump>gary) && (trump>clinton)){
+      result = "<h2>You should vote for Donald Trump!</h2>";
+      result += "<a href='https://www.donaldjtrump.com/' target='_blank'><img src='img/trump.jpg'></a>"
+    } else if ((gary>jill) && (gary>trump) && (gary>clinton)){
+      result = "<h2>You should vote for Gary Johnson!</h2>";
+      result += "<a href='https://www.johnsonweld.com/' target='_blank'><img src='img/gary.jpg'></a>"
+    } else if ((jill>gary) && (jill>trump) && (jill>clinton)){
+      result = "<h2>You should vote for Jill Stein!</h2>";
+      result += "<a href='http://www.jill2016.com/' target='_blank'><img src='img/jill.png'></a>"
+    } else if ((clinton>jill) && (clinton>trump) && (clinton>gary)){
+      result = "<h2>You should vote for Hillary Clinton!</h2>";
+      result += "<a href='https://www.hillaryclinton.com/' target='_blank'><img src='img/hillary.jpg'></a>"
+    } else {
+      result = "<h2>You're undecided! Do more research.</h2><div class='row'>";
+      result += "<div class='col-sm-3'><a href='https://www.johnsonweld.com/' target='_blank'><img src='img/gary.jpg'></a></div>"
+      result += "<div class='col-sm-3'><a href='https://www.hillaryclinton.com/' target='_blank'><img src='img/hillary.jpg'></a></div>"
+      result += "<div class='col-sm-3'><a href='https://www.donaldjtrump.com/' target='_blank'><img src='img/trump.jpg'></a></div>"
+      result += "<div class='col-sm-3'><a href='http://www.jill2016.com/' target='_blank'><img src='img/jill.png'></a></div></div>"
+    }
+      $("#results").html(result);
   });
 });

@@ -7,3 +7,28 @@ h1, h2 {
 .adult, .minor {
   display: none;
 }
+#results img {
+  margin: auto;
+  display: block;
+  width: 25%;
+  border: 1px solid black;
+}
+#results .col-sm-3 img {
+  width: 100%;
+  border: none;
+}
+.radio {
+  font-size: 15px;
+}
+.form-control {
+  -webkit-box-shadow: none;
+}
+input[type=radio] {
+    margin: -6px 0 0;
+  }
+.radio input[type=radio]{
+  margin-left: -25px;
+}
+button {
+  margin-top: 3rem;
+}
