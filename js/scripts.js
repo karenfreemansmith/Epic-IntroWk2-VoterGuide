@@ -72,23 +72,7 @@ $(document).ready(function() {
     }
 
 
-     var result = "";
-    // if(trump/8*100 > 0) {
-    //   result += "Trump: "+ trump/8*100 + "% ";
-    // }
-    // if(clinton/8*100 > 0) {
-    //   result += "Clinton: "+ clinton/8*100 + "% ";
-    // }
-    // if(jill/8*100 > 0) {
-    //   result += "Jill: "+ jill/8*100 + "% ";
-    // }
-    // if(gary/8*100 > 0) {
-    //   result += "Gary: "+ gary/8*100 + "% ";
-    // }
-    // if (!result){
-    //   result = "You should not vote.";
-    // }
-
+    var result = "";
 
     if((trump>jill) && (trump>gary) && (trump>clinton)){
       result = "<h2>You should vote for Donald Trump!</h2>";

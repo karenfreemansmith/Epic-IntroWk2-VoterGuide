@@ -4,7 +4,7 @@ __Version 1.1.0: August 11, 2016__
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io) and [Aimen Khakwani](http://aimenkhakwani.github.io)
 
 ### Description
-__*A webpage for picking RGB or HexCode Colors.*__
+__*A webpage to deliver voting information depending on age, and help decide who to vote for.*__
 
 
 ### Setup/Installation
