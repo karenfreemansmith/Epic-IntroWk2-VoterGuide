@@ -1,0 +1,9 @@
+img {
+  border-bottom: 3px solid black;
+}
+h1, h2 {
+  text-align: center;
+}
+.adult, .minor {
+  display: none;
+}
