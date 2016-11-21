@@ -6,20 +6,22 @@ __Version 1.1.0: August 11, 2016__
 ### Description
 __*A webpage to deliver voting information depending on age, and help decide who to vote for.*__
 
+## Technologies Used
+HTML, CSS
 
-### Setup/Installation
-*None required. Clone or download and extract to use*
+## Setup/Installation
+* [View on Github Pages](https://karenfreemansmith.github.io/EpicIntroWk1-PetWebsite)
+* _OR_
+* Clone diectory 
+* Open index.html in your favorite browser
 
-### Support & Contact
-For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__ or __email [Aimen](aimen.khakwani@hotmail.com)__
+## Support & Contact
+For questions, concerns, or suggestions please email karenfreemansmith@gmail.com
 
-### Known Issues
-* no known issues
+## Known Issues
+* None
 
-### Technologies Used
-###### HTML, CSS, Bootstrap, JavaScript, jQuery
-
-### Legal
+## Legal
 *Licensed under the GNU General Public License v3.0*
 
-Copyright (c) 2016 **_Karen Freeman-Smith_ & _Aimen Khakwani_**
+Copyright (c) 2016 Copyright _[Karen Freeman-Smith](https://karenfreemansmith.github.io)_ All Rights Reserved.
